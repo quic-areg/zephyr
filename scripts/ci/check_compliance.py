@@ -1563,6 +1563,7 @@ flagged.
         # not other toolchains. Compliance check would complain,
         # for example, if you are using GCC.
         "LLVM_USE_LLD",
+        "LLVM_USE_ELD",
         "LOG_BACKEND_MOCK_OUTPUT_DEFAULT",  # Referenced in tests/subsys/logging/log_syst
         "LOG_BACKEND_MOCK_OUTPUT_SYST",  # Referenced in testcase.yaml of log_syst test
         "LSM6DSO_INT_PIN",
